@@ -22,8 +22,20 @@ body{
     color: var(--main);
 }
 
-.container{
-    margin: 0 auto;
-    max-width: 1400px;
+.food-choice{
+    background-image: url("./images/food-choice/Background.png"), url("./images/food-choice/Image.png");
+    padding: 246px 0;
+}
+
+.food-choice__container{
+    background-image: url("");
+}
+
+.natural-food > .additional-title{
+    margin-bottom: 23px;
+}
+
+.natural-food > .active-button{
+    background-color: var(--yellow);
 }
 

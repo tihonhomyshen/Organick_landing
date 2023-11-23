@@ -21,6 +21,12 @@
     margin-right: 0px;
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .navigation-menu__item a{
     text-decoration: none;
     color: var(--main);
