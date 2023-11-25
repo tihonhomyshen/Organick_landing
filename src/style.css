@@ -22,8 +22,13 @@ body{
     color: var(--main);
 }
 
+p{
+    color: var(--grayblue);
+}
+
 .food-choice{
     background-image: url("./images/food-choice/Background.png"), url("./images/food-choice/Image.png");
+    background-repeat: no-repeat, no-repeat;
     padding: 242px 0;
 }
 
@@ -67,4 +72,54 @@ body{
 .second-block{
     background-image: url("./images/fruits-offer/image-2.png");
     background-repeat: no-repat;
+}
+
+.accredited-fermers{
+    background-color: var(--white);
+    background-image: url("./images/accredited-fermers/background.png");
+}
+
+.accredited-fermers__container{
+    display: flex;
+    padding: 190px 0;
+    justify-content: right;
+}
+
+.about-company > .heading{
+    margin-bottom: 46px;
+}
+
+.about-company{
+    max-width: 700px;
+}
+
+.about-company .additional-title{
+    font-size: 50px;
+    margin-bottom: 14px;
+}
+
+.points{
+    margin-bottom: 46px;
+}
+
+.qualities-list__item{
+    list-style: none;
+    display: flex;
+}
+
+.qualities-list__item:first-child{
+    margin-bottom: 30px;
+}
+
+.qualities-list__item__description > .additional-title{
+    font-size: 25px;
+}
+
+.qualities-list__item__description{
+    margin-left: 20px;
+}
+
+.shop-button.active-button{
+    background-color: var(--main);
+    color: white;
 }
