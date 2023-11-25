@@ -77,6 +77,9 @@ p{
 .accredited-fermers{
     background-color: var(--white);
     background-image: url("./images/accredited-fermers/background.png");
+    background-size:contain;
+    background-position:center;
+    background-repeat: no-repeat;
 }
 
 .accredited-fermers__container{
@@ -93,7 +96,7 @@ p{
     max-width: 700px;
 }
 
-.about-company .additional-title{
+.heading .additional-title{
     font-size: 50px;
     margin-bottom: 14px;
 }
@@ -122,4 +125,35 @@ p{
 .shop-button.active-button{
     background-color: var(--main);
     color: white;
+}
+
+.categories .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.categories > .heading{
+    margin-bottom: 40px;
+}
+
+.products-block__element{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--lightgray);
+    max-height: 483px;
+    max-width: 335px;
+}
+
+.products-block__element > .product-category{
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 15px;
+    padding: 6px 12px;
+    background-color: var(--main);
+    border-radius: 8px;
+    margin-bottom: 13px;
 }
