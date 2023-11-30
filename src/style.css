@@ -29,6 +29,7 @@ p{
 .food-choice{
     background-image: url("./images/food-choice/Background.png"), url("./images/food-choice/Image.png");
     background-repeat: no-repeat, no-repeat;
+    width: 100vw;
     padding: 242px 0;
 }
 
@@ -148,6 +149,7 @@ p{
     gap: 20px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
+    margin-bottom: 122px;
 }
 
 .products-block__element{
@@ -213,4 +215,14 @@ p{
 
 .products-block__element > .product-total{
     border-top: 1px solid #DEDDDD;
+}
+
+.loading-button{
+    display: flex;
+    justify-content: center;
+}
+
+.loading-button .active-button{
+    background-color: var(--main);
+    color: white;
 }
