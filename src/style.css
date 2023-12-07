@@ -28,6 +28,8 @@ p{
 
 .food-choice{
     background-image: url("./images/food-choice/Background.png"), url("./images/food-choice/Image.png");
+    background-size:contain, contain;
+    background-position:center, center;
     background-repeat: no-repeat, no-repeat;
     width: 100vw;
     padding: 242px 0;
@@ -225,4 +227,84 @@ p{
 .loading-button .active-button{
     background-color: var(--main);
     color: white;
+}
+
+.testimonials{
+    background-image: url("./images/testimonials/background.png");
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.testimonials .heading{
+    margin-bottom: 60px;
+}
+
+.testimonials .additional-title{
+    margin-bottom: 0;
+}
+
+.testimonials .container__testimonials{
+    max-width: 1108px; 
+    padding: 164px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.review-overall{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.review-overall .customer-image{
+    width: 115px;
+    height: 115px;
+    margin-bottom: 20px;
+}
+
+.review-overall .customer-score{
+    width: 122px;
+    height: 26px;
+}
+
+
+.review-block{
+    max-width: 780px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 102px;
+}
+
+.review-text{
+    margin-bottom: 20px;
+}
+
+.reviewer-name{
+    font-size: 25px;
+    color: var(--main);
+    font-weight: 600;
+}
+
+.reviewer-status{
+    margin-bottom: 20px;
+}
+
+.statistics{
+    display: flex;
+    border-top: 1px solid #E0E0E0;
+    padding: 102px 39px 0 39px;
+}
+
+.statistics__item:last-of-type{
+    margin-right: 0px;
+}
+
+.statistics__item{
+    margin-right: 62px;
 }
