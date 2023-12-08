@@ -324,10 +324,15 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin-bottom: 50px;
 }
 
 .head-block .active-button{
     background-color: var(--yellow);
     padding: 28px 39px;
     max-height: 80px;
+}
+
+.offer__container .products-block{
+    margin-bottom: 0;
 }
