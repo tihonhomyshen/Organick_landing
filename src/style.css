@@ -308,3 +308,26 @@ p{
 .statistics__item{
     margin-right: 62px;
 }
+
+.offer{
+    padding: 200px 0;
+    background-color: var(--main);
+}
+
+
+.offer__container .additional-title{
+    color: white;
+    font-size: 50px;
+}
+
+.head-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.head-block .active-button{
+    background-color: var(--yellow);
+    padding: 28px 39px;
+    max-height: 80px;
+}
