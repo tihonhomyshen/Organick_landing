@@ -379,3 +379,35 @@ p{
     font-weight: 400;
     font-size: 18px;
 }
+
+.products-gallery{
+    background-color: #F1F8F4;
+}
+
+.products-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 42px;
+    padding: 187px 0;
+}
+
+.products-grid__element{
+    position: relative;
+}
+
+.products-grid__element_button{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-weight: 500;
+    padding: 33px 83px;
+    font-family: "Roboto";
+    color: var(--main);
+    white-space: nowrap;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+}
