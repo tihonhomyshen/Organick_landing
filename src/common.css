@@ -28,3 +28,7 @@
     background-repeat: no-repeat;
     cursor: pointer;
 }
+
+.heading > .additional-title{
+    margin-bottom: 0px;
+}
