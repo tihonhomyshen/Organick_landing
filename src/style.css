@@ -489,6 +489,10 @@ p{
     border-radius: 50%;
 }
 
+.subscribe-newsletter{
+    margin-bottom: 117px;
+}
+
 .subscribe-newsletter__container{
     display: flex;
     align-items: center;
