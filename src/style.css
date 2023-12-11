@@ -382,6 +382,7 @@ p{
 
 .products-gallery{
     background-color: #F1F8F4;
+    margin-bottom: 185px;
 }
 
 .products-grid{
@@ -488,6 +489,44 @@ p{
     border-radius: 50%;
 }
 
-.blogs-block__element:before{
+.subscribe-newsletter__container{
+    display: flex;
+    align-items: center;
+    background-image: url("images/subscribe-newsletter/background.png");
+    background-repeat: no-repeat;
+}
 
+.subscribe-newsletter__block{
+    display: flex;
+    padding: 105px 71px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.subscribe-newsletter__block > .additional-title{
+    font-size: 50px;
+    color: white;
+}
+
+.subscribe-newsletter__block__form{
+    display: flex;
+}
+
+.form-input{
+    padding: 0 174px 0 23px;
+    max-width: 350px;
+    margin-right: 6px;
+    border: none;
+    border-radius: 16px;
+}
+
+.form-button{
+    padding: 28px 47px;
+    border: none;
+    border-radius: 16px;
+    background-color: var(--main);
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
 }
