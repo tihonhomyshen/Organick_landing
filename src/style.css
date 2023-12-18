@@ -3,6 +3,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 :root{
@@ -20,6 +21,7 @@ body{
     font-family: "Roboto";
     font-size: 20px;
     color: var(--main);
+    
 }
 
 p{
@@ -31,7 +33,7 @@ p{
     background-size:contain, contain;
     background-position:center, center;
     background-repeat: no-repeat, no-repeat;
-    width: 100vw;
+    width: 100%;
     padding: 242px 0;
 }
 
@@ -395,6 +397,11 @@ p{
 
 .products-grid__element{
     position: relative;
+}
+
+.products-grid__element img{
+    position: relative;
+    max-width: 600px;
 }
 
 .products-grid__element_button{

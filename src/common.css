@@ -20,14 +20,22 @@
     color: var(--main);
     font-size: 20px;
     font-weight: 700;
-    padding: 28px 68px 28px 39px;
+    padding: 28px 39px;
     border-radius: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
     border: none;
-    background: url("./images/common/Arrow.svg");
-    background-position: 170px 30px;
-    background-repeat: no-repeat;
     cursor: pointer;
 }
+
+.active-button__span{
+    width: 19px;
+    height: 19px;
+    margin-left: 10px;
+    background-image: url("images/common/Arrow.svg");
+}
+
 
 .heading > .additional-title{
     margin-bottom: 0px;

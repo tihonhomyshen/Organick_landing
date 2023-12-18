@@ -47,21 +47,30 @@
 }
 
 .search-form{
+    position: relative;
     display: flex;
     align-items: center;
     margin-right: 18px;
 }
 
 .search-form__input{
-    padding: 20px 10px;
+    padding: 20px 65px 20px 15px;
     width: 375px;
     border: none;
     border-radius: 36px;
     outline: none;
     font-size: 18px;
     color: var(--main);
-    background: url("./images/header/SearchIcon.svg") #FAFAFA no-repeat right;
-    
+    background-color:#FAFAFA ;   
+}
+
+.search-form__span{
+    width: 56px;
+    height: 56px;
+    background-image: url("/src/images/header/SearchIcon.svg");
+    position: absolute;
+    right: 6px;
+    cursor: pointer;
 }
 
 .cart__button{
